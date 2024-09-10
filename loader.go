@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/pangum/starter/internal/runtime"
+	"github.com/pangum/config/internal/runtime"
 )
 
 // Loader 加载器
