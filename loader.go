@@ -12,5 +12,5 @@ type Loader interface {
 	Local() bool
 
 	// Load 加载配置时调用
-	Load(ctx context.Context, config runtime.Pointer) (err error)
+	Load(ctx context.Context, config runtime.Pointer) (loaded bool, err error)
 }
